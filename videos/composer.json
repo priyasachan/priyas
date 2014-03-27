@@ -1,0 +1,24 @@
+{
+    "name": "priyas/videos",
+    "description": "",
+    "authors": [
+        {
+            "name": "Priya Sachan",
+            "email": "priyasachan89@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*"
+    },
+    "autoload": {
+		"classmap": [
+        "src/controllers",
+        "src/migrations"
+		],
+		"psr-0": {
+            "Priyas\\Videos": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
